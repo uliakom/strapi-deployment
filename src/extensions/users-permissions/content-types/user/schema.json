@@ -67,12 +67,6 @@
     },
     "position": {
       "type": "string"
-    },
-    "articles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::article.article",
-      "mappedBy": "users_permissions_user"
     }
   }
 }
